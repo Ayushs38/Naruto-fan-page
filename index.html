@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./fanpagestyle.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>Dattebayo</title>
+</head>
+
+<body>
+    <div class="backgroundContainer">
+        <!-- <video id="background" muted autoplay loop>
+            <source src="resources/Konoha live wallpaper 4K UHD.mp4" type="video/mp4">
+            
+            </source>
+        </video> -->
+        <img id="background" src="https://preview.redd.it/2amncw5n50z61.jpg?auto=webp&s=a812dc5608726d20a737a7823d7d4f36c86687b8" alt="">
+
+
+        <audio id="backgroundMusic" class="bgm" src="resources/R A Y - Konoha Peace.mp3" loop></audio>
+    </div>
+
+    <!-- ///**********************************this is header part*************************************************************************************** -->
+    <div class="headerbar">
+        <div class="leftBarContainer">
+            <a class="logoContainer" href=".">
+                <div class="logoImageContainer">
+                    <img class="logoImage" src="resources/logo.jpg" height="50px" width="110px">
+                </div>
+
+            </a>
+            <img id="audioController" src="resources/audioControllerOn.png" onclick="audioController(); imageChange();">
+        </div>
+
+        <!-- This is search box******************************************************** -->
+        <div class="wrap">
+            <div class="search">
+                <input type="text" class="searchTerm" placeholder="What are you looking for?" width="190px" height="40px">
+                <button type="submit" class="searchButton">
+                    <i class="fa fa-search"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- right bar header container -->
+        <div class="rightBarContainer">
+            <div class="rightBarStuff">
+
+                <a class="home hamburgerStuff" href="#">Home</a>
+
+                <a class="about hamburgerStuff" href="#">About</a>
+
+                <a class="characters hamburgerStuff" href="#">Characters</a>
+
+                <!-- <a class="quotes hamburgerStuff" href="#">Quotes</a> -->
+
+                <a class="fan-art hamburgerStuff" href="#">Fan Art</a>
+
+                <a class="news hamburgerStuff" href="#">News</a>
+
+                <a class="contact hamburgerStuff" href="#">Contact</a>
+            </div>
+            <div class="menuHamburger">
+                <div class="menuHamburgerBtn"></div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- this is content part*****************************************
+    -->
+
+    <div class="layer1">
+        <div class="layer1Container">
+            <div class="layer1left">
+                <div class="greetings">
+                    <h2 class="heading">Welcome To the <br> Fanpage of <br> Naruto!</h2>
+                </div>
+                <div class="description">
+                    This Fanpage of our favourite Anime Series
+                    <h4 class="naruto-head">NARUTO</h4>
+                    <h3 class="Naruto-quote">“Hard work is worthless for those that don't believe in
+                        themselves.”<br> <br> -Naruto
+                        Uzumaki.</h3>
+                </div>
+            </div>
+            <!-- this is right side of layer************************************ -->
+            <div class="layer1Right">
+                <img src=" https://wallpaperaccess.com/full/114441.jpg" alt="not found" class="layer1Image">
+                <div class="layer1Caption">
+                    BELIEVE IT!
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <!-- *********************************************************** -->
+    <!-- *****************2nd layer******************************************* -->
+
+    <div class="layer2">
+        <div class="layer2Bg">
+            <div class="layer2Content">
+                <div class="layer2Heading">
+                    Here's the only place where the Fans will get everything!
+                </div>
+                <div class="layer2InfoContainer">
+
+                    <div class="fanArtcontainer">
+                        <a class="FanArt" href="https://www.deviantart.com/tag/naruto"><img class="FanArtimage"
+                                src="https://e0.pxfuel.com/wallpapers/405/741/desktop-wallpaper-itachi-uchiha-fan-art-manga-naruto-anbu-captain-akatsuki-uchiha-itachi-for-with-resolution-high-quality.jpg"></a>
+                        <div class="subtext">Fan Art!</div>
+                    </div>
+                    
+
+                    <div class="CharacterContainer">
+                        <a class="Character" href="https://naruto.fandom.com/wiki/Category:Characters"><img
+                                class="Charactersimage"
+                                src="https://i.pinimg.com/originals/83/02/4f/83024fc37e2fc50c5abd7d0ddaf77e9e.jpg"></a>
+                        <div class="subtext">Characters</div>
+                    </div>
+
+                    <div class="MerchandiseContainer">
+                        <a class="Merchandise" href="https://store.crunchyroll.com/collections/naruto"><img
+                                class="Merchandiseimage" src="https://pbs.twimg.com/media/D0S0Bv8VYAAA1w_.jpg"></a>
+                        <div class="subtext">Merchandise</div>
+                    </div>
+
+                    <div class="NewsContainer">
+                        <a class="News" href="https://naruto-official.com/en/news"><img class="Newsimage"
+                                src="resources/Screenshot_20230105_214817.png"></a>
+                        <div class="subtext">News</div>
+                    </div>
+
+                    <div class="MangaContainer">
+                        <a class="Manga" href="https://www.viz.com/shonenjump/naruto-chapter-1/chapter/3529"><img
+                                class="Mangaimage" src="https://m.media-amazon.com/images/I/61LVJN2aIoL.jpg"></a>
+                        <div class="subtext">Manga</div>
+                    </div>
+
+                    <div class="MusicContainer">
+                        <a class="Music"
+                            href="https://youtube.com/playlist?list=PLtJo71gGzTM8H4jxKuZ_Qi6nMAOsOCN0M"><img
+                                class="Musicimage"
+                                src="https://w0.peakpx.com/wallpaper/160/222/HD-wallpaper-music-of-my-soul-headphones-naruto-anime-music.jpg"></a>
+                        <div class="subtext">Music</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- this section is for naruto top 99 dd -->
+
+    
+
+        <div class="layer3">
+            <div class="layer3Container">
+                <div class="layer3top">
+                    <div class="layer3heading">
+                        The First Worldwide NARUTO Character Popularity Vote, NARUTOP99, Is Now Open and Accepting Votes from Fans All Over! <br>
+                        <div class="hastags">
+                            <span>#NARUTO</span>'
+                            <span>#NARUTO20th</span>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <div class="layer3bottom">
+                    <div class="layer3image1">
+                        <img src=" https://cmsapi-frontend.naruto-official.com/site/api/naruto/Image/get?path=/naruto/en/news/2022/12/15/vdnYpEmZXGXWDf11/1_NARUTOP99_%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%93%E3%82%B8%E3%83%A5%E3%82%A2%E3%83%AB_EN.jpg" alt="not found" width="90%" height="500px" class="layer3image">
+                    </div>
+
+                    <div class="layer3subtext">
+                        The first worldwide NARUTO character popularity vote, NARUTOP99, is now open and accepting votes from fans all over!
+                    </div>
+
+                    <div class="layer3videoContainer">
+                        <video width="90%" height="500px" controls >
+                            <source src="resources/top99 intro video.mp4" type="video/mp4">
+                            
+                            Your browser does not support HTML video.
+                          </video>
+                    </div>
+
+                    <div class="layer3content">
+                        There are an astonishing 488 characters to choose from! <br>
+                        The top 99 characters among them will be chosen via votes from fans all over the world! Each fan can vote once per day, so don't forget to cast yours!
+                    </div>
+
+                    <div class="scrollContentimg">
+                        <img src="resources/scroll content img.png" class="scrollcontentimage" width="95%" height="130px">
+                    </div>
+
+                    <div class="rankingimg">
+                        <img src="resources/rankingimage.png" class="rankingimage" width="90%" height="500px">
+                    </div>
+
+                    <div class="layer3lastcontent">
+                        The 20 Most Popular Characters Will Receive Special Illustrations by Masashi Kishimoto Himself! <br>
+                        What's More, the No. 1 Most Popular Character Will Star in an Original Short Manga!
+                    </div>
+    
+                </div>
+                
+                
+            </div>
+     
+        </div>
+
+        <div class="footer">
+            <p>Copyright &copy; Dattebayo.com</p>
+        </div>
+
+</body>
+
+</html>
